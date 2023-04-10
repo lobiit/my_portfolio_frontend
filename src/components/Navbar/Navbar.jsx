@@ -9,7 +9,7 @@ const Navbar = (props) => {
     return (
         <nav className="app__navbar">
             <div className="ap__navbar-logo">
-                <img  src={images.logo}/>
+                <img  src={images.logo} alt="logo"/>
             </div>
             <ul className="app__navbar-links">
                 {['home', 'about', 'contact', 'work', 'skills', 'contact'].map((item) => (
