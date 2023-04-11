@@ -2,6 +2,7 @@ import React from 'react';
 import {motion} from "framer-motion";
 import './About.scss';
 import {images} from "../../constants";
+import {AppWrap} from "../../Wrapper";
 
 const abouts = [
     {title: 'Web Development', description: 'I am a good web developer', imgUrl: images.about01},
@@ -14,7 +15,7 @@ const About = (props) => {
         <>
             <h2 className="head-text">
                 I know That
-                <span>Good Design</span>
+                <span> Good Design</span>
                 <br/>
                 means
                 <span>Good Business</span>
@@ -38,4 +39,4 @@ const About = (props) => {
     )
 };
 
-export default About;
+export default AppWrap(About, 'about');
