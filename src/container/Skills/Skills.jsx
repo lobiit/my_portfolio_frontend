@@ -9,6 +9,7 @@ import {AppWrap, MotionWrap} from "../../Wrapper";
 const Skills = (props) => {
     const [experiences, setExperience] = useState([]);
     const [skills, setSkills] = useState([]);
+
     useEffect(() => {
         const query = `*[_type == 'experiences']`;
         const skillsQuery = `*[_type == 'skills']`;
