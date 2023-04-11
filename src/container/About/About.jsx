@@ -5,7 +5,7 @@ import {images} from "../../constants";
 
 const abouts = [
     {title: 'Web Development', description: 'I am a good web developer', imgUrl: images.about01},
-    {title: 'Backend Development', description: 'I am a good backend developer', imgUrl: images.about02},
+    {title: 'Backend Development', description: 'I am a great backend developer', imgUrl: images.about02},
     {title: 'Fullstack Development', description: 'I am a good fullstack web developer', imgUrl: images.about04}
 ]
 
